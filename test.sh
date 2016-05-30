@@ -4,8 +4,8 @@ var2="demand.csv"
 var3="result.csv"
 S=" "
 echo "start"
-ls test-case-all/case*/case*/| grep "test-case" | tr -d ":" |xargs -I {} echo {}
-ls test-case-all/case*/case*/| grep "test-case" | tr -d ":" |xargs -I {} sh -c "./future_net {}$var1 {}$var2 $var3 ; echo {}"
+ls test-case/case*/case*/| grep "test-case" | tr -d ":" |xargs -I {} echo {}
+ls test-case/case*/case*/| grep "test-case" | tr -d ":" |xargs -I {} sh -c "./future_net {}$var1 {}$var2 $var3 ; echo {}"
 echo "end"
 
 
