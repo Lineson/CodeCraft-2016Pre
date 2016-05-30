@@ -9,7 +9,7 @@ For the best performance, you can complile with the following shell script by gc
 gcc -O2 -std=c99 future_net.c -o future_net -lm
 ```
 
-# run
+# How to run
 Simply run by
 ```
 test.sh
