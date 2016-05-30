@@ -1,6 +1,6 @@
 # About
 The main algorithm is SAO(Simulated Annealing Optimization) and ACS(Ant Colony System). All the codes are written by our group members, and no open source libs are used. 
-
+test.sh is a tester shell for the program.
 
 # Compile 
 For the best performance, you can complile with the following shell script by gcc4.8.4:
